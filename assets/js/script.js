@@ -114,7 +114,7 @@ const quizData = [
   },
   {
     id: "16",
-    question: "What's the oldest language in the world?",
+    question: "What is the oldest language in the world?",
     options: ["English", "Arabic", "Sumerian", "Mandarin"],
     correct: "Sumerian",
   },
