@@ -2,25 +2,50 @@
 <html lang="en">
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QuizNight</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&ampdisplay=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
-  <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizNight</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&ampdisplay=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <div class="start-page">
-    <div id="info_box">
-      <div class="info_head">
-        Welcome to QuizNight <br>Some Rules of this Quiz</div>
-      <div class="info_list">
-        <div>1. You have 20 seconds for each question.</div>
-        <div>2. Once you select your answer, it can't be undone.</div>
-        <div>3. When timed out, you will skip to the next question.</div>
-        <div>4. You can't return to previous questions.</div>
-        <div>5. You'll receive points based on your correct answers.</div>
-      </div>
+    <div class="start-page">
+        <div id="info_box">
+            <div class="info_head">
+                Welcome to QuizNight <br>Some Rules of this Quiz</div>
+            <div class="info_list">
+                <div>1. You have 20 seconds for each question.</div>
+                <div>2. Once you select your answer, it can't be undone.</div>
+                <div>3. When timed out, you will skip to the next question.</div>
+                <div>4. You can't return to previous questions.</div>
+                <div>5. You'll receive points based on your correct answers.</div>
+            </div>
+        </div>
+        <button id="start-button">Start</button>
     </div>
-    <button id="start-button">Start</button>
-  </div>
+    <div id="display-container">
+        <div class="header">
+            <img class="logo" src="Assets/images/favicons/quiz-2191229_640.png" alt="logo" width="90" height="70">
+
+            <div class="time-container">Time Left
+                <span class="time-out">20s</span>
+            </div>
+        </div>
+        <div id="container">
+            <!-- questions and options will be displayed here -->
+        </div>
+        <div class="number-of-count">
+            <span class="question-que">1 of 3 questions</span>
+        </div>
+        <button id="next-button">Next</button>
+    </div>
+    <div class="score-container hide">
+        <div id="score">QuizScore</div>
+        <button id="restart-button">Restart</button>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
