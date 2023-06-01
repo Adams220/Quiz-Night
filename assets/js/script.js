@@ -1,4 +1,3 @@
-
 let timeLeft = document.querySelector(".time-out");
 let quizContainer = document.getElementById("container");
 let nextBtn = document.getElementById("next-button");
