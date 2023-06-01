@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#QuizNi!
+[header image for index](/assets/images/Quiz%20project.png)
 
-Welcome,
+This quiz is built to test the knowledge of people.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<br>
+<br>
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+## Features
+<hr>
 
-## Codeanywhere Reminders
+## info box and start page
+<hr>
+<br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- The information box helps the user to understand the rules of the quiz
+- The start page makes it easy for the user to decide when he wants to begin the quiz
 
-`python3 -m http.server`
+![header image for index](/assets/images/Screenshot%20(307).png)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<br>
+<br>
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Quiz options, Timer and Next button
 
-`http_server`
+<hr>
+<br>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![header image for index](/assets/images/Screenshot%20(315).png)   
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+<br>
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+-The quiz has 4 options which displays and changes colours when the correct and wrong options are displayed.
+-The timer prevents the user on spending too much time on a question
+-The next button helps the user to skip to next question
 
-To log into the Heroku toolbelt CLI:
+### Score page and Restart button
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<hr>
+<br>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+-The score page displays the user's score.
+-Restart button helps the user to restart the quiz instead of refreshing the browser.
+<br>
 
----
+![image for history](/assets/images/Screenshot%20(308).png)
 
-Happy coding!
+<br>
+
+##### Validator Testing
+<hr>
+<br>
+
+- HTML
+No errors were found when testing with  **W3C validator**
+<br>
+
+- CSS
+No errors were found when passing through  **Jigsaw validator**
+
+
+<br>
+<br>
+
+#### Deployment
+<hr>
+<br>
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- On your left select pages
+- Scroll down to source
+- From the source section drop-down menu, select the Master Branch
+- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+<br>
+https://adams220.github.io/Quiz-Night/
+
+br>
+<br>
+
+#### Credits
+<hr>
+<br>
+
+- Steps to create a quiz was taken from [Code Artist](https://codingartistweb.com/)
+- Logo image was taken from [Pexels](https://www.pexels.com)
+- Tick and cross icons where taken from [Font Awesome](https://fontawesome.com)
+
+
+
