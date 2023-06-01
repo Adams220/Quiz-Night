@@ -1,4 +1,3 @@
-//calling elements
 
 let timeLeft = document.querySelector(".time-out");
 let quizContainer = document.getElementById("container");
@@ -14,8 +13,6 @@ let questionCount;
 let score = 0;
 let count = 21;
 let countdown;
-
-//questions and options 
 
 const quizData = [
   {
@@ -140,32 +137,30 @@ const quizData = [
   },
 ];
 
-//restart quiz
 restart.addEventListener("click", () => {
   initial();
   displayContainer.classList.remove("hide");
   scoreContainer.classList.add("hide");
 });
 
-//next button
 nextBtn.addEventListener(
   "click",
   (displayNext = () => {
-    //increase questionCount
+
     questionCount += 1;
-    //if last question
+
     if (questionCount == quizData.length) {
-      //hide question container and display score
+
       displayContainer.classList.add("hide");
       scoreContainer.classList.remove("hide");
-      //user score
+
       userScore.innerHTML =
         "Your score is " + score + " out of " + questionCount;
     } else {
-      //display questionCount
+
       countOfQuestion.innerHTML =
         questionCount + 1 + " of " + quizData.length + " Question";
-      //display quiz
+
       quizDisplay(questionCount);
       count = 21;
       clearInterval(countdown);
@@ -174,7 +169,7 @@ nextBtn.addEventListener(
   })
 );
 
-//timer
+
 const timerDisplay = () => {
   countdown = setInterval(() => {
     count--;
@@ -186,36 +181,35 @@ const timerDisplay = () => {
   }, 1000);
 };
 
-//display quiz
+
 const quizDisplay = (questionCount) => {
   let quizCards = document.querySelectorAll(".container-mid");
-  //hide other cards
+
   quizCards.forEach((card) => {
     card.classList.add("hide");
   });
-  //display current question card
+
   quizCards[questionCount].classList.remove("hide");
 };
 
-//quiz Creation
 function quizCreator() {
-  //randomly sort questions
+
   quizData.sort(() => Math.random() - 0.5);
-  //generate quiz
+
   for (let i of quizData) {
-    //randomly sort options
+
     i.options.sort(() => Math.random() - 0.5);
-    //quiz card creation
+
     let div = document.createElement("div");
     div.classList.add("container-mid", "hide");
-    //question number
+
     countOfQuestion.innerHTML = 1 + " of " + quizData.length + " Question";
-    //question
+
     let question_DIV = document.createElement("p");
     question_DIV.classList.add("question");
     question_DIV.innerHTML = i.question;
     div.appendChild(question_DIV);
-    //options
+
     div.innerHTML += `
     <button class="option-div" onclick="checker(this)">${i.options[0]}</button>
      <button class="option-div" onclick="checker(this)">${i.options[1]}</button>
@@ -226,18 +220,18 @@ function quizCreator() {
   }
 }
 
-//checker Function to check if option is correct or not
+
 function checker(userOption) {
   let userSolution = userOption.innerText;
   let question =
     document.getElementsByClassName("container-mid")[questionCount];
   let options = question.querySelectorAll(".option-div");
 
-//tick or cross options
+
   let tickIconTag = '<div class="icon tick"><i class="fa-solid fa-check fa-beat-fade"></i></div>';
   let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
-  //if user clicked answer == correct option stored in object
+
   if (userSolution === quizData[questionCount].correct) {
     userOption.classList.add("correct");
     userOption.insertAdjacentHTML("beforeend", tickIconTag);
@@ -245,7 +239,7 @@ function checker(userOption) {
   } else {
     userOption.classList.add("incorrect");
     userOption.insertAdjacentHTML("beforeend", crossIconTag);
-    //For marking the correct option
+
     options.forEach((element) => {
       if (element.innerText == quizData[questionCount].correct) {
         element.classList.add("correct");
@@ -254,16 +248,16 @@ function checker(userOption) {
     });
   }
 
-  
-  
-  //disable all options
+
+
+
   options.forEach((element) => {
     element.disabled = true;
   });
-  
+
 }
 
-//initial setup
+
 function initial() {
   quizContainer.innerHTML = "";
   questionCount = 0;
@@ -275,7 +269,7 @@ function initial() {
   quizDisplay(questionCount);
 }
 
-//when user click on start button
+
 startButton.addEventListener("click", () => {
   startScreen.classList.add("hide");
   displayContainer.classList.remove("hide");
@@ -283,7 +277,6 @@ startButton.addEventListener("click", () => {
   initial();
 });
 
-//hide quiz and display start screen
 window.onload = () => {
   startScreen.classList.remove("hide");
   displayContainer.classList.add("hide");

@@ -40,8 +40,8 @@ This quiz is built to test the knowledge of people.
 <hr>
 <br>
 
--The score page displays the user's score.
--Restart button helps the user to restart the quiz instead of refreshing the browser.
+- The score page displays the user's score.
+- Restart button helps the user to restart the quiz instead of refreshing the browser.
 <br>
 
 ![image for history](/assets/images/Screenshot%20(308).png)
