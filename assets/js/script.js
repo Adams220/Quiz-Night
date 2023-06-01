@@ -1,3 +1,5 @@
+//calling elements
+
 let timeLeft = document.querySelector(".time-out");
 let quizContainer = document.getElementById("container");
 let nextBtn = document.getElementById("next-button");
@@ -13,7 +15,7 @@ let score = 0;
 let count = 21;
 let countdown;
 
-//Questions and Options array
+//questions and options 
 
 const quizData = [
   {
@@ -134,22 +136,22 @@ const quizData = [
     id: "19",
     question: "How many elements are in the periodic table?",
     options: ["100", "190", "118", "110"],
-    correct: "Martin Copper",
+    correct: "118",
   },
 ];
 
-//Restart Quiz
+//restart quiz
 restart.addEventListener("click", () => {
   initial();
   displayContainer.classList.remove("hide");
   scoreContainer.classList.add("hide");
 });
 
-//Next Button
+//next button
 nextBtn.addEventListener(
   "click",
   (displayNext = () => {
-    //increment questionCount
+    //increase questionCount
     questionCount += 1;
     //if last question
     if (questionCount == quizData.length) {
@@ -172,7 +174,7 @@ nextBtn.addEventListener(
   })
 );
 
-//Timer
+//timer
 const timerDisplay = () => {
   countdown = setInterval(() => {
     count--;
@@ -184,10 +186,10 @@ const timerDisplay = () => {
   }, 1000);
 };
 
-//Display quiz
+//display quiz
 const quizDisplay = (questionCount) => {
   let quizCards = document.querySelectorAll(".container-mid");
-  //Hide other cards
+  //hide other cards
   quizCards.forEach((card) => {
     card.classList.add("hide");
   });
@@ -195,7 +197,7 @@ const quizDisplay = (questionCount) => {
   quizCards[questionCount].classList.remove("hide");
 };
 
-//Quiz Creation
+//quiz Creation
 function quizCreator() {
   //randomly sort questions
   quizData.sort(() => Math.random() - 0.5);
@@ -224,14 +226,14 @@ function quizCreator() {
   }
 }
 
-//Checker Function to check if option is correct or not
+//checker Function to check if option is correct or not
 function checker(userOption) {
   let userSolution = userOption.innerText;
   let question =
     document.getElementsByClassName("container-mid")[questionCount];
   let options = question.querySelectorAll(".option-div");
 
-
+//tick or cross options
   let tickIconTag = '<div class="icon tick"><i class="fa-solid fa-check fa-beat-fade"></i></div>';
   let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
@@ -252,7 +254,7 @@ function checker(userOption) {
     });
   }
 
-  //clear interval(stop timer)
+  
   
   //disable all options
   options.forEach((element) => {

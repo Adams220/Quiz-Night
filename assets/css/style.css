@@ -8,7 +8,7 @@
     background-color:#fffafa;
   }
   
- 
+ /* score page*/
   .score-container {
     position: absolute;
     top: 0;
@@ -20,7 +20,7 @@
     justify-content: center;
   }
 
-  
+  /*info box*/
   .info_head {
 	padding: 10px 5px;
 	font-size: 20px;
@@ -28,6 +28,7 @@
 	border-bottom: solid 1px #aaaa;
 }
 
+/*start page*/
 .start-page{
     background-image: linear-gradient(180deg, #e2e2e2 0%, #aeaeae 100%);
 	font-family: 'Open Sans', sans-serif;
@@ -36,10 +37,9 @@
     max-width: 37.5em;
     margin: 0 auto;
  text-align: center;
-
-
 }
 
+/*info box*/
 .info_list {
 	padding: 20px;
 }
@@ -50,11 +50,14 @@
 	margin-top: 0;
 }
 
+/*style for buttons*/
   button {
     border: none;
     outline: none;
     cursor: pointer;
   }
+
+  /*start and restart buttons*/
   #start-button,
   #restart-button {
     font-size: 1.3em;
@@ -75,7 +78,7 @@
     background-color: green;
   }
 
-  
+  /*quiz body*/
   #display-container {
     border-radius: 0.6em;
 	padding: 3.1em 1.8em;
@@ -93,6 +96,8 @@
     left: 50%;
 
   }
+
+  /*header*/
   .header {
     margin-bottom: 1.8em;
     display: flex;
@@ -102,7 +107,7 @@
     border-bottom: 0.1em solid #c0bfd2;
   }
 
-
+/*styling the timer*/
   .time-out {
     border-radius: 50%;
 	font-size: 13px;
@@ -117,10 +122,14 @@
 	margin-left: 10px;
     float:right
   }
+
+  /*questions*/
   .question-que {
     margin-bottom: 1.25em;
     font-weight: 600;
   }
+
+  /*options*/
   .option-div {
     margin: 20px 0;
     display: block;
@@ -150,7 +159,7 @@
 
 
 
-
+/*next button*/
   #next-button {
     font-size: 1em;
     margin-top: 1.5em;
@@ -165,10 +174,12 @@
     background-color: #008000;
 
   }
-
+/*hide*/
   .hide {
     display: none;
   }
+
+  /*incorect and correct answers*/
   .incorrect {
     background-color: #ffdde0;
     color: #d32f2f;
@@ -179,6 +190,8 @@
     color: #689f38;
     border-color: #689f38;
   }
+
+  /*score*/
   #score {
     font-size: 1.5em;
     color: #463838;
