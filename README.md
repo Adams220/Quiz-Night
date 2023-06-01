@@ -1,4 +1,4 @@
-#QuizNi!
+#QuizNi
 [header image for index](/assets/images/Quiz%20project.png)
 
 This quiz is built to test the knowledge of people.
