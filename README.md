@@ -85,7 +85,7 @@ https://adams220.github.io/Quiz-Night/
 
 - Steps to create a quiz was taken from [Code Artist](https://codingartistweb.com/)
 - Logo image was taken from [Pexels](https://www.pexels.com)
-- Tick and cross icons where taken from [Font Awesome](https://fontawesome.com)
+- Tick and cross icons were taken from [Font Awesome](https://fontawesome.com)
 
 
 
