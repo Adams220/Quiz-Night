@@ -27,13 +27,13 @@ const quizData = [
   {
     id: "1",
     question: "What is the capital of USA?",
-    options: ["New york", "The White house", "Washington DC", "Manhattan"],
+    options: ["New york", "Alaska", "Washington DC", "Manhattan"],
     correct: "Washington DC",
   },
   {
     id: "2",
     question: "What is the most important part of a computer?",
-    options: ["System Unit", "Mouse", "Keyboard", "All above"],
+    options: ["System Unit", "Mouse", "Keyboard", "All options"],
     correct: "All above",
   },
   {
@@ -100,7 +100,7 @@ const quizData = [
     id: "13",
     question: "What is the first computer processor?",
     options: ["Pentium 1", "Windows xp", "Intel 4004", "Pentium"],
-    correct: "Hippopotamus",
+    correct: "Intel 4004",
   },
   {
     id: "14",

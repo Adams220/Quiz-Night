@@ -1,5 +1,6 @@
-#QuizNi
-[header image for index](/assets/images/Quiz%20project.png)
+# QuizNight
+
+![header image for index](/assets/images/Quiz-project.png)
 
 This quiz is built to test the knowledge of people.
 
@@ -9,12 +10,12 @@ This quiz is built to test the knowledge of people.
 ## Features
 <hr>
 
-## info box and start page
+## Info box and Start page
 <hr>
 <br>
 
 - The information box helps the user to understand the rules of the quiz
-- The start page makes it easy for the user to decide when he wants to begin the quiz
+- The start page makes it easy for the user to decide when he/she wants to begin the quiz
 
 ![header image for index](/assets/images/Screenshot%20(307).png)
 
@@ -26,13 +27,13 @@ This quiz is built to test the knowledge of people.
 <hr>
 <br>
 
-![header image for index](/assets/images/Screenshot%20(315).png)   
+![header image for index](/assets/images/Screenshot%20(316).png)   
 
 <br>
 
--The quiz has 4 options which displays and changes colours when the correct and wrong options are displayed.
--The timer prevents the user on spending too much time on a question
--The next button helps the user to skip to next question
+- The quiz has 4 options which displays and changes colours when the correct and wrong options are displayed.
+- The timer prevents the user on spending too much time from a question.
+- The next button helps the user to skip to next question.
 
 ### Score page and Restart button
 
@@ -75,7 +76,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 <br>
 https://adams220.github.io/Quiz-Night/
 
-br>
+<br>
 <br>
 
 #### Credits
