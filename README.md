@@ -1,8 +1,8 @@
 # QuizNight
 
-![header image for index](/assets/images/Quiz-project.png)
+![responsive image](/assets/images/responsive1.png)
 
-This quiz is built to test the knowledge of people.
+Quiz night is an exciting challenging educative game with general questions to test the knowlegde of the user. The game is straight forward with 4 answers, a timer and the layout is easy to navigate.
 
 <br>
 <br>
@@ -10,14 +10,14 @@ This quiz is built to test the knowledge of people.
 ## Features
 <hr>
 
-## Info box and Start page
+### Info box and Start page
 <hr>
 <br>
 
-- The information box helps the user to understand the rules of the quiz
-- The start page makes it easy for the user to decide when he/she wants to begin the quiz
+- The start page has a start button to make it easy for the user to decide when he/she wants to begin the quiz.
+ The page also has an information box which helps the user to understand the rules of the quiz and a username to input your name.
 
-![header image for index](/assets/images/Screenshot%20(307).png)
+![start page image](/assets/images/Screenshot%20(342).png)
 
 <br>
 <br>
@@ -27,7 +27,7 @@ This quiz is built to test the knowledge of people.
 <hr>
 <br>
 
-![header image for index](/assets/images/Screenshot%20(316).png)   
+![quiz image ](/assets/images/Screenshot%20(316).png)   
 
 <br>
 
@@ -40,26 +40,53 @@ This quiz is built to test the knowledge of people.
 <hr>
 <br>
 
-- The score page displays the user's score.
-- Restart button helps the user to restart the quiz instead of refreshing the browser.
+- The score page displays the user name and score. the page also has a Restart button which helps the user to restart the quiz without refreshing the browser.
 <br>
 
-![image for history](/assets/images/Screenshot%20(308).png)
+![score page](/assets/images/Screenshot%20(346).png)
 
 <br>
 
-##### Validator Testing
+<br>
+
+
+### Testing
+<hr>
+<br>
+
+- All buttons and features are working as expected
+- The quiz was tested on my computer and mobile phone
+
+<br>
+
+### Bugs
+<hr>
+<br>
+
+- You can not start the game unless you enter your username
+- The quiz will skip to the next question after you are timed out
+
+<br>
+
+### Validator Testing
 <hr>
 <br>
 
 - HTML
+<br>
 No errors were found when testing with  **W3C validator**
 <br>
 
 - CSS
+<br>
 No errors were found when passing through  **Jigsaw validator**
+<br>
 
+- JS
+<br>
+No significant errors when passing through **JSHINT**
 
+![jshints ](/assets/images/Screenshot%20(js1).png)
 <br>
 <br>
 
@@ -83,7 +110,7 @@ https://adams220.github.io/Quiz-Night/
 <hr>
 <br>
 
-- Steps to create a quiz was taken from [Code Artist](https://codingartistweb.com/)
+- Steps to create a quiz was taken from [Code Artist](https://www.youtube.com/watch?v=p-2G-7vLuV4&t=4s)
 - Logo image was taken from [Pexels](https://www.pexels.com)
 - Tick and cross icons were taken from [Font Awesome](https://fontawesome.com)
 
