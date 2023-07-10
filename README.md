@@ -72,21 +72,17 @@ Quiz night is an exciting challenging educative game with general questions to t
 <hr>
 <br>
 
-- HTML
-<br>
-No errors were found when testing with  **W3C validator**
-
+- HTML:
+  - No errors were found when testing with  **W3C validator**    
 <br>
 
-- CSS
-<br>
-No errors were found when passing through  **Jigsaw validator**
-
+- CSS:
+  - No errors were found when passing through  **Jigsaw validator** 
 <br>
 
-- JS
-<br>
-No significant errors when passing through **JSHINT**
+- JS:
+  - No significant errors when passing through **JSHINT**
+    
 <br>
 
 ![jshints ](/assets/images/Screenshot%20(js1).png)
@@ -97,7 +93,7 @@ No significant errors when passing through **JSHINT**
 <hr>
 <br>
 
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
 - In the GitHub repository, navigate to the Settings tab
 - On your left select pages
 - Scroll down to source
