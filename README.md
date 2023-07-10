@@ -75,16 +75,19 @@ Quiz night is an exciting challenging educative game with general questions to t
 - HTML
 <br>
 No errors were found when testing with  **W3C validator**
+
 <br>
 
 - CSS
 <br>
 No errors were found when passing through  **Jigsaw validator**
+
 <br>
 
 - JS
 <br>
 No significant errors when passing through **JSHINT**
+<br>
 
 ![jshints ](/assets/images/Screenshot%20(js1).png)
 <br>
