@@ -40,10 +40,10 @@ Quiz night is an exciting challenging educative game with general questions to t
 <hr>
 <br>
 
-- The score page displays the user name and score. the page also has a Restart button which helps the user to restart the quiz without refreshing the browser.
+- The score page displays a message depending on the score of the user. the page also has a Restart button which helps the user to restart the quiz without refreshing the browser.
 <br>
 
-![score page](/assets/images/Screenshot%20(346).png)
+![score page](/assets/images/Screenshot%20(350).png)
 
 <br>
 
@@ -85,7 +85,7 @@ Quiz night is an exciting challenging educative game with general questions to t
     
 <br>
 
-![jshints ](/assets/images/Screenshot%20(js1).png)
+![jshints ](/assets/images/Screenshot%20(351).png)
 <br>
 <br>
 
