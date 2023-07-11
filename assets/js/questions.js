@@ -1,5 +1,5 @@
 //array for questions and answers
-const quizData = [
+const questions = [
     {
         id: "0",
         question: "Who were the first humans scientifically?",
